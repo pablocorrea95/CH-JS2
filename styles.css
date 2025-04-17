@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+
+
+header {
+    background-color: #f05454;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+
+.productos div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.productos h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.productos p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f05454;
+}
+
+
+
+#carrito-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+}
+
+
+
+#carrito-btn:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+
+
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+
+
+#products-container div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#cart-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+
+
+#cart-section div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+    <script defer src="./formulario.js"></script>
+    <title>Pizzaaas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pizza Pizza Pizzaaa!</h1>
+    </header>
+
+    <main>
+        <section id="products-container">
+        <h2>Formulario de pedido</h2>
+        <form id="formulario">
+          <label>Nombre y apellido:</label>
+          <input type="text" id="nombreApellido" name="nombreApellido" placeholder="Ingresa tu nombre y apellido" required />
+
+          <label>Celular:</label>
+          <input type="tel" id="celular" name="celular" placeholder="Ingresa tu número de celular" required />
+
+          <label>Dirección:</label>
+          <input type="text" id="direccion" name="direccion" placeholder="Ingresa donde desees recibir el pedido" required />
+          
+        </form>
+      </section>
+      <section id="products-container" class="productos"></section>
+    
+    </main>
+
+    <footer>
+      <button id="carrito-btn"><a href="chart/carrito.html">Ir al carrito</a></button>
+    </footer>
+  </body>
+</html>
